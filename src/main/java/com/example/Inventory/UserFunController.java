@@ -44,8 +44,7 @@ public class UserFunController{
         }
         user_id = (String)req.getSession().getAttribute("user_id");
         pass = (String)req.getSession().getAttribute("password");
-        System.out.println(user_id + " is user id and password " + pass);
-        System.out.println("Reaching here in code");
+        System.out.println(user_id + " user id and password " + pass + "is logged in");
         user.setName("") ;
         return userFun.checkUser(user) ;
     }
