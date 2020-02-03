@@ -8,4 +8,6 @@ It has user side and vendor side logins.
 
 As it is only backend side, functionalities can be used only via Postman or similar programs. 
 
+Updated readme.
+
 Thank you. :)
